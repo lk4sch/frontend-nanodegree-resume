@@ -16,8 +16,9 @@ var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span>%data%</span><hr/>';
 var FormattedName = HTMLheaderName.replace("%data%" , "Laura Forsch");
 var FormattedRole = HTMLheaderRole.replace("%data%" , "Software Developer");
-("#header").prepend(FormattedName);
 ("#header").prepend(FormattedRole)
+("#header").prepend(FormattedName);
+
 
 
 
